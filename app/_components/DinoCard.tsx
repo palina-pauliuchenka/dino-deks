@@ -17,10 +17,14 @@ export default function DinoCard({ dino }: { dino: Dino }) {
     return (
       <div className="relative bg-taupe-50 cursor-pointer rounded-3xl p-6 pt-12 text-center shadow-sm hover:shadow-md transition-all">
         {/* Floating Image */}
-        <div className="absolute -top-20 left-1/2 -translate-x-1/2">
-          <img src={dino.image} alt={dino.name} className="w-40 h-40 object-contain" />
+        <div className="absolute -top-20 left-15 translate-x-1/2 animate-[float_3s_ease-in-out_infinite]">
+          <img
+            src={dino.image}
+            alt={dino.name}
+            className="w-40 h-40 object-contain"
+          />
         </div>
-  
+          
         {/* ID */}
         <p className="text-gray-400 font-semibold">VC{dino.id}</p>
   
