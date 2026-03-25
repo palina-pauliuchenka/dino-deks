@@ -5,7 +5,7 @@ export default function EmptyDinoState() {
     <div className="bg-taupe-50 rounded-t-3xl h-full p-6 pt-12 mt-32 relative text-center shadow-md flex items-center justify-center relative text-center">
       
       {/* Faded Dino Silhouette */}
-      <div className="absolute -top-50 left-1/2 -translate-x-1/2 w-80 h-80">
+      <div className="absolute -top-50 left-90 -translate-x-1/2 w-80 h-80 animate-[float2_3s_ease-in-out_infinite]">
         <Image
             src={"/dinosaurus_natoons_dinos_VC108.webp"}
             alt="placeholder"
